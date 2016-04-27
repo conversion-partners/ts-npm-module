@@ -16,10 +16,16 @@
         "!./node_modules/**/*.ts"
     ],
     "files": [
+        "./deep/deeper/bar.d.ts",
         "./deep/deeper/bar.ts",
+        "./deep/foo.d.ts",
         "./deep/foo.ts",
+        "./index.d.ts",
         "./index.ts",
         "./typings/node/node.d.ts",
         "./typings/tsd.d.ts"
-    ]
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
 }
